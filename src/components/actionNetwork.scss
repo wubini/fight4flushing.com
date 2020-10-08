@@ -86,17 +86,17 @@ html.can_embed-html {
     justify-content: space-between;
 
     // First line: First name, last name
-    .core_field:nth-child(3), .core_field:nth-child(4) {
+    .core_field:nth-child(2), .core_field:nth-child(3) {
       flex: 1 0 40%;
     }
 
     // Second line: Email and phone (wider)
-    .core_field:nth-child(5), .core_field:nth-child(7) {
+    .core_field:nth-child(4), .core_field:nth-child(6) {
       flex: 1 0 40%;
     }
 
     // Second line: Zipcode (narrow)
-    .core_field:nth-child(6) {
+    .core_field:nth-child(5) {
       flex: 1 0 20%;
     }
 
