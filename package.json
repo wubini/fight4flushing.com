@@ -48,6 +48,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-cli": "^2.12.104",
     "prettier": "^2.0.5"
   }
 }
