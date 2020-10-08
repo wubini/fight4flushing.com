@@ -5,7 +5,7 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
-/styles.f78f6a93f8cde76634b2.css
+/styles.bc983c58ddac3e3ed857.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-e9d24b1846c7d6eb9685.js
   Cache-Control: public, max-age=31536000, immutable
@@ -13,11 +13,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /6856248c00fc7a17368c03e2cf9f4280bd8891ff-a5a363844027121917c8.js
   Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-index-page-js-d471433cbbb66a5914bf.js
+  Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-product-page-js-c6bfd138c7a54e4c71b8.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-blog-post-js-a207935466fb846cdfb1.js
-  Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-index-page-js-d471433cbbb66a5914bf.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-templates-about-page-js-d89a99303a8b2b8d1405.js
   Cache-Control: public, max-age=31536000, immutable
@@ -37,7 +37,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-tags-index-js-974e028b0a7d5270490c.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-6f268c52fad5112476e0.js
+/webpack-runtime-ca6b0cf055cc211e6ebf.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-caaca52af16d464f8089.js
   Cache-Control: public, max-age=31536000, immutable
@@ -49,29 +49,8 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/products/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
-  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
-  Link: </6856248c00fc7a17368c03e2cf9f4280bd8891ff-a5a363844027121917c8.js>; rel=preload; as=script
-  Link: </component---src-templates-product-page-js-c6bfd138c7a54e4c71b8.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/products/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
-  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
-  Link: </component---src-templates-blog-post-js-a207935466fb846cdfb1.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/page-data.json>; rel=preload; as=fetch; crossorigin
 /
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -81,8 +60,19 @@
   Link: </component---src-templates-index-page-js-d471433cbbb66a5914bf.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/products/
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
+  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
+  Link: </6856248c00fc7a17368c03e2cf9f4280bd8891ff-a5a363844027121917c8.js>; rel=preload; as=script
+  Link: </component---src-templates-product-page-js-c6bfd138c7a54e4c71b8.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/products/page-data.json>; rel=preload; as=fetch; crossorigin
 /blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -91,18 +81,18 @@
   Link: </component---src-templates-blog-post-js-a207935466fb846cdfb1.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/page-data.json>; rel=preload; as=fetch; crossorigin
-/about/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
   Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
-  Link: </component---src-templates-about-page-js-d89a99303a8b2b8d1405.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-a207935466fb846cdfb1.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/page-data.json>; rel=preload; as=fetch; crossorigin
 /blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -111,28 +101,18 @@
   Link: </component---src-templates-blog-post-js-a207935466fb846cdfb1.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/page-data.json>; rel=preload; as=fetch; crossorigin
-/tags/flavor/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+/about/
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
   Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
   Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-a27c1652e57b0f822cdc.js>; rel=preload; as=script
+  Link: </component---src-templates-about-page-js-d89a99303a8b2b8d1405.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/tags/flavor/page-data.json>; rel=preload; as=fetch; crossorigin
-/tags/tasting/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
-  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
-  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
-  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
-  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
-  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
-  Link: </component---src-templates-tags-js-a27c1652e57b0f822cdc.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/tags/tasting/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/jamaica/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -142,7 +122,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/jamaica/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/green-beans/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -151,8 +131,28 @@
   Link: </component---src-templates-tags-js-a27c1652e57b0f822cdc.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/green-beans/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/flavor/
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
+  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-a27c1652e57b0f822cdc.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/flavor/page-data.json>; rel=preload; as=fetch; crossorigin
+/tags/tasting/
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
+  Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
+  Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
+  Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
+  Link: </styles-e9d24b1846c7d6eb9685.js>; rel=preload; as=script
+  Link: </commons-cebdb3ff3c03632dcc90.js>; rel=preload; as=script
+  Link: </component---src-templates-tags-js-a27c1652e57b0f822cdc.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tags/tasting/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/brewing/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -162,7 +162,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/brewing/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/chemex/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -172,7 +172,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/chemex/page-data.json>; rel=preload; as=fetch; crossorigin
 /404/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -182,7 +182,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
 /blog/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -193,7 +193,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
 /contact/examples/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -203,7 +203,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/contact/examples/page-data.json>; rel=preload; as=fetch; crossorigin
 /contact/file-upload/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -213,7 +213,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/contact/file-upload/page-data.json>; rel=preload; as=fetch; crossorigin
 /contact/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -223,7 +223,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/contact/page-data.json>; rel=preload; as=fetch; crossorigin
 /contact/thanks/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -233,7 +233,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/contact/thanks/page-data.json>; rel=preload; as=fetch; crossorigin
 /tags/
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
@@ -243,7 +243,7 @@
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
 /404.html
-  Link: </webpack-runtime-6f268c52fad5112476e0.js>; rel=preload; as=script
+  Link: </webpack-runtime-ca6b0cf055cc211e6ebf.js>; rel=preload; as=script
   Link: </framework-caaca52af16d464f8089.js>; rel=preload; as=script
   Link: </532a2f07-b32c28cb7cdd6cc07e70.js>; rel=preload; as=script
   Link: </app-2303a2594d9efb9454ea.js>; rel=preload; as=script
