@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
         <ActionNetworkWidget />
       </div>
     </div>
-    {/* <section className="section section--gradient">
+    <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -64,18 +64,18 @@ export const IndexPageTemplate = ({
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
+                </div> */}
+                {/* <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                    <Link className="btn" to="/get-involved">
                       See all products
                     </Link>
                   </div>
@@ -90,13 +90,13 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> */}
+    </section>
   </div>
 )
 
