@@ -1,0 +1,207 @@
+$goldenrod: goldenrod;
+$white: white;
+$black: black;
+
+%screenReaderOnly {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+%inputStyles {
+  padding: .5rem;
+  border: none;
+  width: 100%;
+  border-radius: .2rem;
+  font-size: .8rem;
+  box-shadow:  0 0 2px 0 $black;
+  -webkit-appearance: none;
+}
+
+%transition {
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+html.can_embed-html {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+#can-form-area-1145c83b38cdf945008f00fdaa57c933322dfae1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  max-height: 400px;
+  background-color: transparent;
+  list-style: none;
+  max-width: 330px;
+
+  // Hide things that should be hidden
+    // Country selector
+    // Supported By
+    // Action Network Logo
+  h2, h4, .hide, .international_link, .country_drop_wrap, #action_info, #logo_wrap {
+    display: none !important;
+  }
+
+  form#new_answer {
+    // Hide the opt-in
+    #d_sharing {
+      display: none !important;
+    }
+
+    // Hide the second appearance of the form
+    &:nth-child(4){
+      display: none;
+    }
+  }
+
+  #form_col1 {
+    // Hide field labels
+    li.core_field div.floatlabel-wrapper label.floatlabel-label {
+      display: none !important;
+    }
+
+    .control-group .control-label {
+      display: none !important;
+    }
+
+    // Hide welcome message for already-signed
+    #action_welcome_message {
+      display: none;
+    }
+
+    margin-top: 30px;
+    width: 600px;
+
+    // Change alignment of form fields
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    // First line: First name, last name
+    .core_field:nth-child(3), .core_field:nth-child(4) {
+      flex: 1 0 40%;
+    }
+
+    // Second line: Email and phone (wider)
+    .core_field:nth-child(5), .core_field:nth-child(7) {
+      flex: 1 0 40%;
+    }
+
+    // Second line: Zipcode (narrow)
+    .core_field:nth-child(6) {
+      flex: 1 0 20%;
+    }
+
+    .core_field, .control-group {
+      margin: 0 4px 4px 4px;
+    }
+  }
+
+  .can_embed {
+    width: 100%;
+
+    form {
+      input {
+        width: 100%;
+        height: 45px;
+        border: none;
+        padding: 3px;
+      }
+
+      input[type="text"],input[type="email"],input[type="submit"] {
+        @extend %inputStyles;
+        padding: .5rem;
+        font-size: .8rem;
+      }
+
+      input[type="submit"]{
+        @extend %transition;
+        cursor: pointer;
+        background-color: goldenrod !important;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: bold;
+        font-size: .9rem;
+        border: none;
+        width: 600px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+    #can_embed_form_inner>form:first-of-type {
+      display: initial;
+    }
+
+    #action_welcome_message {
+      margin-top: 1rem
+    }
+
+    #can_thank_you {
+      padding: 1rem;
+
+      h1 {
+        display: none;
+      }
+
+      #action_thank_you_text {
+        color: $white;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .clearfix {
+        display: none;
+      }
+    }
+    // Hide share buttons and email textbox
+    .can_thank_you-block {
+      display: none;
+    }
+
+    // Hide form about referral code after signup
+    #can_embed_form.can_thank_you_wrap.thank_you_v3 {
+      #referral_code_select_wrap {
+        display: none;
+      }
+    }
+
+    // Label for Opt-in checkbox
+    #can_embed_form #d_sharing label {
+      display: none !important;
+    }
+  }
+}
+
+// Hide loading spinner after load
+#can-form-area-1145c83b38cdf945008f00fdaa57c933322dfae1.loaded .ajax-loading {
+  display: none;
+}
+
+// Mobile style
+@media only screen and (max-width: 600px) {
+  #can-form-area-1145c83b38cdf945008f00fdaa57c933322dfae1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    #form_col1, #form_col2 {
+      width: calc(100vw) !important;
+
+      .core_field, .control-group {
+        flex: 1 0 100% !important;
+      }
+    }
+  }
+}
