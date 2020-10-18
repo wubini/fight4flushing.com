@@ -1,7 +1,7 @@
 ---
 templateKey: press-post
 title: "Calling on Koo to vote no on SFWD "
-date: 2020-10-18T20:36:50.439Z
+date: 2020-09-17T20:36:50.439Z
 description: By Katherine Donlevy, Associate Editor, Queens Chronicle
 url: https://www.qchron.com/editions/queenswide/calling-on-koo-to-vote-no-on-sfwd/article_6855df46-b424-5cde-9374-9cdc2a6aa88f.html
 featuredpost: true
