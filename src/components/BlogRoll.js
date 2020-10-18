@@ -46,9 +46,14 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
+                  { post.fields.url?
+                  <a href={post.fields.url}>
+                    Keep Reading →
+                  </a>
+                  :
                   <Link className="button" to={post.fields.slug}>
                     Keep Reading →
-                  </Link>
+                  </Link>}
                 </p>
               </article>
             </div>
