@@ -6,7 +6,7 @@ date: 2020-08-13T21:46:30.444Z
 description: By Sarah Ngu
 url: https://www.theguardian.com/us-news/2020/aug/13/flushing-queens-gentrification-luxury-developments
 featuredpost: true
-featuredimage: /img/the-guardian-logo.jpg
+featuredimage: /img/guardian-logo-square.jpg
 tags:
   - Flushing
   - Gentrification
