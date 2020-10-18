@@ -30,12 +30,18 @@ class BlogRoll extends React.Component {
                     </div>
                   ) : null}
                   <p className="post-meta">
+                    { post.frontmatter.url?
+                    <a className="title has-text-primary is-size-4" href={post.frontmatter.url}>
+                      {post.frontmatter.title}
+                    </a>
+                    :
                     <Link
                       className="title has-text-primary is-size-4"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
+                   }
                     <span> &bull; </span>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
@@ -46,8 +52,8 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  { post.fields.url?
-                  <a href={post.fields.url}>
+                  { post.frontmatter.url?
+                  <a href={post.frontmatter.url}>
                     Keep Reading →
                   </a>
                   :
@@ -77,7 +83,7 @@ export default () => (
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "press-post" } } }
         ) {
           edges {
             node {
@@ -90,6 +96,7 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
+                url
                 featuredpost
                 featuredimage {
                   childImageSharp {
