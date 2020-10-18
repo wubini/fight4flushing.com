@@ -1,7 +1,7 @@
 ---
 templateKey: press-post
 title: Local Residents Urge Councilman Koo to Oppose Flushing Rezoning
-date: 2020-10-18T21:33:01.928Z
+date: 2020-09-14T21:33:01.928Z
 description: By Lewis Latimer, Patch Mayor
 url: https://patch.com/new-york/flushing-murray-hill/local-residents-urge-councilman-koo-oppose-flushing-rezoning
 featuredpost: true
