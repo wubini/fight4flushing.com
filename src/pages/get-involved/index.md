@@ -1,7 +1,7 @@
 ---
 templateKey: 'get-involved-page'
 path: /get-involved
-title: Our Coffee
+title: Get Involved
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
