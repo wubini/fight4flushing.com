@@ -1,6 +1,6 @@
 ---
 templateKey: press-post
-title: "Opinion: Luxury Rezoning Will Displace Flushing Residents, and Our
+title: "OPINION: Luxury Rezoning Will Displace Flushing Residents, and Our
   Politicians Know It"
 date: 2020-09-09T20:29:16.514Z
 description: By  Fiona Zhao and Joseph J. Jung
