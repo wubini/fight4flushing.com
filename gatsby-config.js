@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Flushing Anti-Displacement Alliance',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Flushing Anti-Displacement Alliance is a volunteer group of workers and Flushing residents who reject the politicians & corporate interests displacing our neighbors and small businesses.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

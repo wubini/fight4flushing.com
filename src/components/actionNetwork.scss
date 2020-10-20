@@ -202,6 +202,10 @@ html.can_embed-html {
       .core_field, .control-group {
         flex: 1 0 100% !important;
       }
+
+      input[type="submit"]{
+        width: 100%;
+      }
     }
   }
 }
