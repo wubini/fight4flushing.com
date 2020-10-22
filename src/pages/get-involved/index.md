@@ -18,9 +18,6 @@ intro:
       title: Contact Your City Councilmember
       text: |
         Your city councilmember will vote on whether or not to allow the Flushing Special Waterfront Project to move forward.
-  heading:
-  description: >
-main:
-  heading:
+  heading: Other Actions
   description: >
 ---

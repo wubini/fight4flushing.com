@@ -10,8 +10,7 @@ export const GetInvolvedPageTemplate = ({
   title,
   events,
   publicComment,
-  intro,
-  main,
+  intro
 }) => (
   <div className="content">
     <div
@@ -45,15 +44,11 @@ export const GetInvolvedPageTemplate = ({
               <h4 className="has-text-weight-semibold is-size-3">{publicComment.title}</h4>
               <p>{publicComment.text}</p>
               <p><a href={publicComment.url} target="_blank" rel="noreferrer">{publicComment.clickHere}</a></p>
+              <h3 className="has-text-weight-semibold is-size-3">
+                {intro.heading}
+              </h3>
+              <p>{intro.description}</p>
               <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -69,21 +64,7 @@ GetInvolvedPageTemplate.propTypes = {
   publicComment: PropTypes.object,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
-  }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  }),
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
+  })
 }
 
 const GetInvolvedPage = ({ data }) => {
@@ -150,10 +131,6 @@ export const getInvolvedPageQuery = graphql`
             title
             text
           }
-          heading
-          description
-        }
-        main {
           heading
           description
         }
