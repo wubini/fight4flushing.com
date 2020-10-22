@@ -4,20 +4,14 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import ControlShiftMapWidget from '../components/ControlShiftMapWidget'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const GetInvolvedPageTemplate = ({
   image,
   title,
-  heading,
-  description,
+  events,
+  publicComment,
   intro,
   main,
-  testimonials,
-  fullImage,
-  pricing,
 }) => (
   <div className="content">
     <div
@@ -43,13 +37,14 @@ export const GetInvolvedPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-12">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
-            </div>
-          </div>
-          <div className="columns">
-            <div className="column is-12">
+              <h4 className="has-text-weight-semibold is-size-3">{events.title}</h4>
+              <p>{events.text}</p>
               <ControlShiftMapWidget />
+              <br />
+              <br />
+              <h4 className="has-text-weight-semibold is-size-3">{publicComment.title}</h4>
+              <p>{publicComment.text}</p>
+              <p><a href={publicComment.url} target="_blank" rel="noreferrer">{publicComment.clickHere}</a></p>
               <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
@@ -70,8 +65,8 @@ export const GetInvolvedPageTemplate = ({
 GetInvolvedPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
+  events: PropTypes.object,
+  publicComment: PropTypes.object,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -99,8 +94,8 @@ const GetInvolvedPage = ({ data }) => {
       <GetInvolvedPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
-        description={frontmatter.description}
+        events={frontmatter.events}
+        publicComment={frontmatter.publicComment}
         intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
@@ -133,8 +128,16 @@ export const getInvolvedPageQuery = graphql`
             }
           }
         }
-        heading
-        description
+        events {
+          title
+          text
+        }
+        publicComment {
+          title
+          text
+          clickHere
+          url
+        }
         intro {
           blurbs {
             image {
@@ -144,6 +147,7 @@ export const getInvolvedPageQuery = graphql`
                 }
               }
             }
+            title
             text
           }
           heading
