@@ -3,7 +3,7 @@ heading: Get Involved in the Fight!
 path: /get-involved
 templateKey: get-involved-page
 title: Get Involved
-image: /img/jumbotron.jpg
+image: /img/signal-2020-10-22-142418.jpeg
 events:
   title: Join Us for Outreach to our Neighbors
   text: To fight real estate developers and the policians who enable them, to
