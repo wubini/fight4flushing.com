@@ -1,25 +1,25 @@
 ---
 title: Press
 image: /img/img_20200912_124804.jpg
-heading: Press
-description: Press
+heading: " "
+description: " "
 intro:
-  heading: Press
-  description: Press
+  heading: " "
+  description: " "
 main:
-  heading: Press
-  description: Press
+  heading: " "
+  description: " "
   image1:
     image: /img/img_20200912_124804.jpg
-    alt: Press
+    alt: " "
   image3:
-    alt: Press
+    alt: " "
     image: /img/img_20200912_124804.jpg
   image2:
-    alt: Press
+    alt: " "
     image: /img/img_20200912_124804.jpg
 full_image: /img/img_20200912_124804.jpg
 pricing:
-  heading: Press
-  description: Press
+  heading: " "
+  description: " "
 ---
