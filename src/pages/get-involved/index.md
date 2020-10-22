@@ -3,7 +3,7 @@ heading: Get Involved in the Fight!
 path: /get-involved
 templateKey: get-involved-page
 title: Get Involved
-image: /img/signal-2020-10-22-142418.jpeg
+image: /img/outreach.jpg
 events:
   title: Join Us for Outreach to our Neighbors
   text: To fight real estate developers and the policians who enable them, to
@@ -12,15 +12,9 @@ events:
 publicComment:
   title: Submit Public Comment
   text: Let the City Planning Commission know we are all against the development.
-  clickHere: Click here to submit a comment by Oct ___.
+  clickHere: Click here to submit a comment by Oct 27th.
   url: https://a002-irm.nyc.gov/EventRegistration/RegForm.aspx?eventGuid=fa206f3d-6400-4a95-8b39-87b1bfa975ef
 intro:
-  blurbs:
-    - image: /img/home-jumbotron-jose.jpg
-      title: Contact Your City Councilmember
-      text: >
-        Your city councilmember will vote on whether or not to allow the
-        Flushing Special Waterfront Project to move forward.
-  heading: Other Actions
+  heading: "\n"
   description: "\n"
 ---

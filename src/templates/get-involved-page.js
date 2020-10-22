@@ -44,11 +44,15 @@ export const GetInvolvedPageTemplate = ({
               <h4 className="has-text-weight-semibold is-size-3">{publicComment.title}</h4>
               <p>{publicComment.text}</p>
               <p><a href={publicComment.url} target="_blank" rel="noreferrer">{publicComment.clickHere}</a></p>
-              <h3 className="has-text-weight-semibold is-size-3">
-                {intro.heading}
-              </h3>
-              <p>{intro.description}</p>
-              <Features gridItems={intro.blurbs} />
+              {/* {intro.blurbs.length ?
+                <>
+                  <h3 className="has-text-weight-semibold is-size-3">
+                    {intro.heading}
+                  </h3>
+                  <p>{intro.description}</p>
+                  <Features gridItems={intro.blurbs} />
+                </>
+                :null} */}
             </div>
           </div>
         </div>
@@ -78,10 +82,6 @@ const GetInvolvedPage = ({ data }) => {
         events={frontmatter.events}
         publicComment={frontmatter.publicComment}
         intro={frontmatter.intro}
-        main={frontmatter.main}
-        testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -120,17 +120,6 @@ export const getInvolvedPageQuery = graphql`
           url
         }
         intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            title
-            text
-          }
           heading
           description
         }
