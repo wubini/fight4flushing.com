@@ -6,7 +6,13 @@ title: About us
 **Overview**
 
 When Mayor Bill de Blasio announced a plan to rezone Flushing in 2015, a wave of predatory developers swooped into Flushing, buying up our buildings and land. Opportunistic landlords stopped doing repairs, kicked out long-term tenants and hiked up the rents for newcomers. 
-We are losing what affordable homes we have left and are being forced to either pay much higher rents for lower quality housing or double and triple up in homes to meet the hiked costs.
+
+
+When Mayor Bill de Blasio announced a plan to rezone Flushing in 2015, a wave of predatory developers swooped into Flushing, buying up our buildings and land. Opportunistic landlords stopped doing repairs, kicked out long-term tenants and hiked up the rents for newcomers. We are losing what affordable homes we have left and are being forced to either pay much higher rents for lower quality housing or double and triple up in homes to meet the hiked costs.
+
+When Mayor Bill de Blasio announced a plan to rezone Flushing in 2015, a wave of predatory developers swooped into Flushing, buying up our buildings and land. Opportunistic landlords stopped doing repairs, kicked out long-term tenants and hiked up the rents for newcomers. 
+
+We are losing what affordable homes we have left and are being forced to either pay much higher rents for lower quality housing or double and triple up in homes to meet the hiked costs.﻿
 
 Flushing Commons, Tangrams, One Fulton Plaza, and many many more have displaced our small businesses and made rents for small businesses unaffordable. Many of our businesses have been forced to relocate or simply close down, resulting in loss of the  jobs and businesses we need and love.
 
