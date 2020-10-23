@@ -101,6 +101,9 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" href="https://act.fight4flushing.com" _target="blank">
                 Sign Our Petition
               </a>
+              <Link className="navbar-item" to="/#contact-us">
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>

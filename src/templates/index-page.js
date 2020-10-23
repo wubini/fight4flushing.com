@@ -10,6 +10,7 @@ export const IndexPageTemplate = ({
   title,
   subheading,
   mainpitch,
+  contactUs
 }) => (
   <div>
     <div
@@ -55,9 +56,13 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div className="tile is-size-5">
+                    {mainpitch.description}
                   </div>
+                </div>
+                <div id="contact-us">
+                   <h1 className="title">{contactUs.title}</h1>
+                   <p className="is-size-5">{contactUs.description}</p>
                 </div>
                 {/* <div className="columns">
                   <div className="column is-12">
@@ -98,13 +103,9 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  contactUs: PropTypes.object
 }
 
 const IndexPage = ({ data }) => {
@@ -115,11 +116,9 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        contactUs={frontmatter.contactUs}
       />
     </Layout>
   )
@@ -147,27 +146,15 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
-        subheading
         mainpitch {
           title
           description
         }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
+        contactUs {
+          title
           description
         }
+        subheading
       }
     }
   }

@@ -1,58 +1,46 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
 import twitter from '../img/social/twitter.svg'
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+      <footer className="footer has-text-white-ter">
+        <div className="content has-text-centered has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
+              <div className="column is-12">
                 <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/our-work">
-                        Our Work
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/get-involved">
-                        Get Involved
-                      </Link>
-                    </li>
-                  </ul>
+                  <Link to="/" className="navbar-item">
+                    Home
+                  </Link>
+                  <Link className="navbar-item" to="/about">
+                    About
+                  </Link>
+                  <Link className="navbar-item" to="/get-involved">
+                    Get Involved
+                  </Link>
+                  <Link className="navbar-item" to="/press">
+                    Press
+                  </Link>
                 </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="twitter" href="https://twitter.com/Flushing_ADA">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+                <div className="social">
+                  <a title="twitter" href="https://twitter.com/Flushing_ADA">
+                    <img
+                      className="fas fa-lg"
+                      src={twitter}
+                      alt="Twitter"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>
+                </div>
+                <p>
+                  The Flushing Anti-Displacement Alliance (FADA) is a volunteer group of workers and Flushing residents who reject the politicians & corporate interests displacing our neighbors and small businesses. <b>EMAIL US: <a href="mailto:flushingada@gmail.com">flushingada@gmail.com</a></b>.
+                </p>
+                <p>
+                  © 2020 Flushing Anti-Displacement Alliance
+                </p>
               </div>
             </div>
           </div>

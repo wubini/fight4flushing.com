@@ -111,7 +111,24 @@ $primary-invert: $black
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: $seven-train-purple
+
+  a
+    color: white
+    font-weight: bold
+    &:hover
+      color: $sunset-gold
+
+  .menu
+    display: flex
+    justify-content: center
+
+    .navbar-item
+      background-color: unset
+      color: white
+      &:hover
+        color: black!important
+        background-color: $sunset-gold!important
 
 //Menu overrides
 $menu-item-color: $white-ter
