@@ -21,11 +21,9 @@ The *Flushing Anti-Displacement Alliance* (FADA) was created to galvanize the co
 
 Our approach is simple: 1) Organize, 2) Organize, and 3) Win.
 
-In 2016, Council Member Peter Koo wrote a letter to the NYC City Planning Commission saying that a similar development project did not serve the interests of the community and, for this reason, he would not support it. In 2020, FWRA, LLC's proposed Special Flushing Waterfront District offers even less to the community. Yet, Koo is expressing support of the project behind closed doors.
+In 2016, Council Member Peter Koo wrote a letter to the NYC City Planning Commission saying that a similar development project did not serve the interests of the community and, for this reason, he would not support it. In 2020, FWRA LLC's proposed Special Flushing Waterfront District offers even less to the community, yet Koo is expressing support of the project behind closed doors.
 
-The only thing that has changed in the past four years is upwards of $20,000 in Koo's campaign contributions from the developers associated with the project.
-
-We will not let this corruption continue. 
+The only thing that has changed is upwards of $20,000 in Koo's campaign contributions from the developers associated with the project. We cannot let this corruption continue. 
 
 FADA is collecting petition signatures, engaging in community outreach, and pressuring elected officials to force Koo to publicly oppose this luxury development rezoning and send a strong message to all corporate developers looking to turn a quick buck off working families. 
 
