@@ -20,5 +20,9 @@ mainpitch:
 contactUs:
   title: Contact Us
   description: >
-    Please email us at flushingada@gmail.com if you have any questions or want to join us!
+    Please email us at flushingada@gmail.com if you have any questions or want
+    to join us! We need volunteers to help with outreach (in-person and on phone
+    calls), writing, social media, website/tech, graphic design, and
+    translation. We would love to have you help out in whatever capacity you
+    can.
 ---
