@@ -21,10 +21,10 @@ The *Flushing Anti-Displacement Alliance* (FADA) was created to galvanize the co
 
 Our approach is simple: 1) Organize, 2) Organize, and 3) Win.
 
-In 2016, Council Member Peter Koo wrote a letter to the NYC City Planning Commission saying that a similar development project did not serve the interests of the community and, for this reason, he would not support it. In 2020, FWRA LLC's proposed Special Flushing Waterfront District offers even less to the community, yet Koo is expressing support of the project behind closed doors.
+We are collecting petition signatures, engaging in community outreach, and pressuring elected officials to force Council Member Peter Koo to publicly oppose this luxury development rezoning and send a strong message to all corporate developers looking to turn a quick buck off working families. 
 
-The only thing that has changed is upwards of $20,000 in Koo's campaign contributions from the developers associated with the project. We cannot let this corruption continue. 
+In 2016, Koo wrote a letter to the NYC City Planning Commission saying that a similar development project did not serve the interests of the community and that, for this reason, he would not support it. In 2020, FWRA LLC's proposed Special Flushing Waterfront District offers even less to the community, yet Koo is expressing support of the project behind closed doors.
 
-FADA is collecting petition signatures, engaging in community outreach, and pressuring elected officials to force Koo to publicly oppose this luxury development rezoning and send a strong message to all corporate developers looking to turn a quick buck off working families. 
+The only thing that has changed is upwards of $20,000 in campaign contributions from the developers associated with the project. We cannot let this corruption continue. 
 
 Join us to demand Council Member Peter Koo say **NO** to the Special Flushing Waterfront District rezoning and support an alternative, community-driven plan that is to our benefit, not developers.
