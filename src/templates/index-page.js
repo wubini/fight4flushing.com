@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
           display: 'flex',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'left',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <ActionNetworkWidget />
+        <a role="button" className="btn join-us-button" href="https://airtable.com/shrnWGiKf8AhFwM1u" target="_blank">Volunteer with Us to Protect Flushing!</a>
       </div>
     </div>
     <section className="section section--gradient">
