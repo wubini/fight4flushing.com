@@ -12,7 +12,7 @@ events:
 publicComment:
   title: Submit Public Comment
   text: Let the City Planning Commission know we are all against the development.
-  clickHere: Click here to submit a comment by Oct 27th.
+  clickHere: Click here to submit a comment by 11:59 pm on Tuesday, Oct 27.
   url: https://a002-irm.nyc.gov/EventRegistration/RegForm.aspx?eventGuid=fa206f3d-6400-4a95-8b39-87b1bfa975ef
 intro:
   heading: "\n"
