@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <a role="button" className="btn join-us-button" href="https://airtable.com/shrnWGiKf8AhFwM1u" target="_blank">Volunteer with Us to Protect Flushing!</a>
+        <a role="button" className="btn join-us-button" href="https://airtable.com/shrnWGiKf8AhFwM1u" target="_blank">Volunteer with Flushing Anti-Displacement Alliance!</a>
       </div>
     </div>
     <section className="section section--gradient">
