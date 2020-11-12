@@ -2,7 +2,7 @@
 templateKey: press-post
 title: Queens Deserves Better Than a Development Plan That Benefits Too Few
 date: 2020-11-08T18:16:39.542Z
-description: By Kyle Bragg & Rich Maroko
+description: By Kyle Bragg & Rich Maroko, Gotham Gazette
 url: https://www.gothamgazette.com/opinion/9886-queens-deserves-better-flushing-waterfront-development-benefits-too-few
 featuredpost: true
 featuredimage: /img/gotham-gazette.jpg
