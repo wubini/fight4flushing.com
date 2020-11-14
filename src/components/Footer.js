@@ -24,6 +24,9 @@ const Footer = class extends React.Component {
                   <Link className="navbar-item" to="/press">
                     Press
                   </Link>
+                  <a href="https://act.fight4flushing.com" className="navbar-item" rel="noreferer" target="_blank">
+                    Sign Our Petition
+                  </a>
                 </section>
                 <div className="social">
                   <a title="twitter" href="https://twitter.com/Flushing_ADA">

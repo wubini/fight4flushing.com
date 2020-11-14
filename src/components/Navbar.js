@@ -98,11 +98,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/get-involved#city-council">
                 Contact your City Councilmember
               </Link>
+              <a href="https://act.fight4flushing.com" className="navbar-item" rel="noreferer" target="_blank">
+                Sign Our Petition
+              </a>
               <Link className="navbar-item" to="/press">
                 Press
-              </Link>
-              <Link className="navbar-item" to="/#contact-us">
-                Contact Us
               </Link>
             </div>
           </div>
