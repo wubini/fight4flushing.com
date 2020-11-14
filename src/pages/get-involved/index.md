@@ -1,19 +1,17 @@
 ---
-heading: Get Involved in the Fight!
+heading: Take Action!
 path: /get-involved
 templateKey: get-involved-page
-title: Get Involved
+title: Take Action
 image: /img/outreach.jpg
 events:
-  title: Join Us for Outreach to our Neighbors
+  title: Join Us for Outreach to Our Neighbors
   text: To fight real estate developers and the policians who enable them, to
     build a city that works for all of us, we need all of us. Join us at the
     events below to learn more and talk to our neighbors about this fight.
-publicComment:
-  title: Submit Public Comment
-  text: Let the City Planning Commission know we are all against the development.
-  clickHere: Click here to submit a comment by 11:59 pm on Tuesday, Oct 27.
-  url: https://a002-irm.nyc.gov/EventRegistration/RegForm.aspx?eventGuid=fa206f3d-6400-4a95-8b39-87b1bfa975ef
+cityCouncil:
+  title: Demand Your City Councilmember Votes NO
+  text: We need a majority of councilmembers to vote NO, and the vote will happen in the next few weeks. Use the form below to look up your councilmember and generate an email to easily send to them.
 intro:
   heading: "\n"
   description: "\n"

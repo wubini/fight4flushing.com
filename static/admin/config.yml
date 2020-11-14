@@ -48,14 +48,14 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/get-involved/index.md"
-        label: "Get Involved Page"
+        label: "Take Action Page"
         name: "getInvolved"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "get-involved-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Events, name: events, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}]}
-          - {label: "Public Comment", name: publicComment, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Click here text, name: clickHere, widget: string}, {label: URL, name: url, widget: string}]}
+          - {label: "City Council", name: cityCouncil, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}]}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
       - file: "src/pages/press/index.md"
         label: "Press Page"

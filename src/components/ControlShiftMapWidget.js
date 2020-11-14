@@ -1,5 +1,4 @@
 import React from 'react'
-import Script from 'react-load-script'
 
 export default class ControlShiftMapWidget extends React.Component {
   render() {

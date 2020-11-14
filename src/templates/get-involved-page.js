@@ -4,12 +4,13 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import ControlShiftMapWidget from '../components/ControlShiftMapWidget'
+import CityCouncilMailerWidget from '../components/CityCouncilMailerWidget'
 
 export const GetInvolvedPageTemplate = ({
   image,
   title,
   events,
-  publicComment,
+  cityCouncil,
   intro
 }) => (
   <div className="content">
@@ -40,10 +41,10 @@ export const GetInvolvedPageTemplate = ({
               <p>{events.text}</p>
               <ControlShiftMapWidget />
               <br />
-              <br />
-              <h4 className="has-text-weight-semibold is-size-3">{publicComment.title}</h4>
-              <p>{publicComment.text}</p>
-              <p><a href={publicComment.url} target="_blank" rel="noreferrer">{publicComment.clickHere}</a></p>
+              <br id="city-council"/>
+              <h4 className="has-text-weight-semibold is-size-3">{cityCouncil.title}</h4>
+              <p>{cityCouncil.text}</p>
+              <CityCouncilMailerWidget />
               {/* {intro.blurbs.length ?
                 <>
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -65,7 +66,7 @@ GetInvolvedPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   events: PropTypes.object,
-  publicComment: PropTypes.object,
+  cityCouncil: PropTypes.object,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   })
@@ -80,7 +81,7 @@ const GetInvolvedPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         events={frontmatter.events}
-        publicComment={frontmatter.publicComment}
+        cityCouncil={frontmatter.cityCouncil}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -113,11 +114,9 @@ export const getInvolvedPageQuery = graphql`
           title
           text
         }
-        publicComment {
+        cityCouncil {
           title
           text
-          clickHere
-          url
         }
         intro {
           heading

@@ -93,14 +93,14 @@ const Navbar = class extends React.Component {
                 About
               </Link>
               <Link className="navbar-item" to="/get-involved">
-                Get Involved
+                Take Action
+              </Link>
+              <Link className="navbar-item" to="/get-involved#city-council">
+                Contact your City Councilmember
               </Link>
               <Link className="navbar-item" to="/press">
                 Press
               </Link>
-              <a className="navbar-item" href="https://act.fight4flushing.com" _target="blank">
-                Sign Our Petition
-              </a>
               <Link className="navbar-item" to="/#contact-us">
                 Contact Us
               </Link>

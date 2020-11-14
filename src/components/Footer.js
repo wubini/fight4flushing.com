@@ -19,7 +19,7 @@ const Footer = class extends React.Component {
                     About
                   </Link>
                   <Link className="navbar-item" to="/get-involved">
-                    Get Involved
+                    Take Action
                   </Link>
                   <Link className="navbar-item" to="/press">
                     Press
