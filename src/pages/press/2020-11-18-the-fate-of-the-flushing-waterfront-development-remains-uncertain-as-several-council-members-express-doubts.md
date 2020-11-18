@@ -9,6 +9,15 @@ featuredpost: true
 featuredimage: /img/screen-shot-2020-11-16-at-10.05.24-pm.png
 tags:
   - Special Flushing Waterfront District
+  - SFWD
+  - Rezoning
+  - Flushing Anti-Displacement Alliance
+  - FADA
+  - Peter Koo
+  - City Council
+  - City Planning
+  - Land Use Committee
+  - ULURP
 ---
 "The fate of the “Special Flushing Waterfront District” project lies in the hands of the City Council and many members have expressed misgivings about the plan over the past week.
 
