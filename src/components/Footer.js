@@ -24,6 +24,9 @@ const Footer = class extends React.Component {
                   <Link className="navbar-item" to="/press">
                     Press
                   </Link>
+                  <Link className="navbar-item" to="/letter-city-council">
+                    Open Letter to City Council
+                  </Link>
                   <a href="https://act.fight4flushing.com" className="navbar-item" rel="noreferer" target="_blank">
                     Sign Our Petition
                   </a>

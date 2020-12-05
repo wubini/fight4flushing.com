@@ -57,6 +57,15 @@ collections:
           - {label: Events, name: events, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}]}
           - {label: "City Council", name: cityCouncil, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}]}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - file: "src/pages/letter-city-council/index.md"
+        label: "Open Letter City Council Page"
+        name: "letterCityCouncil"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "letter-city-council-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: "City Council", name: cityCouncil, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}]}
+          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
       - file: "src/pages/press/index.md"
         label: "Press Page"
         name: "press"

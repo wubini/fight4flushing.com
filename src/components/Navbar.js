@@ -95,6 +95,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/get-involved">
                 Take Action
               </Link>
+              <Link className="navbar-item" to="/letter-city-council">
+                Open Letter to City Council
+              </Link>
               <Link className="navbar-item" to="/get-involved#city-council">
                 Contact your City Councilmember
               </Link>
