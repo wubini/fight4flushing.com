@@ -33,7 +33,7 @@ export const LetterCityCouncilPageTemplate = ({
       <div className="container">
         <h4 className="has-text-weight-semibold is-size-3">{cityCouncil.title}</h4>
         <p>{cityCouncil.text}</p>
-        <object data={letterPDF} type="application/pdf" width="100%" height="500px" />
+        <iframe src={letterPDF} width="100%" height="500px" />
       </div>
     </section>
   </div>
