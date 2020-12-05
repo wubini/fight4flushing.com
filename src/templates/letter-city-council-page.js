@@ -2,7 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import letterPDF from '../pdfs/letter-city-council.pdf';
+import letterPDF from '../pdfs/letter-city-council.pdf'
+import letterP1 from '../img/letter/0001.jpg'
+import letterP2 from '../img/letter/0002.jpg'
+import letterP3 from '../img/letter/0003.jpg'
+import letterP4 from '../img/letter/0004.jpg'
+import letterP5 from '../img/letter/0005.jpg'
+import letterP6 from '../img/letter/0006.jpg'
 
 export const LetterCityCouncilPageTemplate = ({
   image,
@@ -33,7 +39,15 @@ export const LetterCityCouncilPageTemplate = ({
       <div className="container">
         <h4 className="has-text-weight-semibold is-size-3">{cityCouncil.title}</h4>
         <p>{cityCouncil.text}</p>
-        <iframe src={letterPDF} width="100%" height="500px" />
+        <a href={letterPDF}>Or download it here!</a>
+        <div className="column">
+          <img src={letterP1} />
+          <img src={letterP2} />
+          <img src={letterP3} />
+          <img src={letterP4} />
+          <img src={letterP5} />
+          <img src={letterP6} />
+        </div>
       </div>
     </section>
   </div>
